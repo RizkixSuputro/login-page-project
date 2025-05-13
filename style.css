@@ -26,6 +26,66 @@ main {
   height: 80vh;
   background-color: white;
 }
+h2.form-head {
+  font-family: "Poppins", serif;
+  text-align: center;
+  font-size: 46px;
+  margin: 10px;
+}
+.input-form {
+  margin-top: 3rem;
+  padding-left: 10%;
+}
+.input-form label {
+  font-family: "Poppins", serif;
+  font-size: 28px;
+}
+.input-form input {
+  height: 5vh;
+  width: 70vh;
+  border: none;
+  border-bottom: 2px solid gray;
+}
+.input-form input:focus {
+  outline: none;
+}
+.btn-form {
+  padding-left: 10%;
+}
+.btn-form button {
+  width: 70vh;
+  height: 5vh;
+  border: none;
+  background-color: #a755f7;
+  color: white;
+  font-family: "Lato", serif;
+  font-weight: bold;
+}
+.forgot-pw-content {
+  margin-top: 2rem;
+  gap: 23rem;
+  display: flex;
+  justify-content: center;
+}
+.forgot-pw-content a {
+  text-decoration: none;
+  color: gray;
+}
+.option-login p {
+  text-align: center;
+  margin-top: 1rem;
+  color: gray;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  gap: 1rem;
+}
+.icons i {
+  font-size: 64px;
+}
+/* signup style */
 .signup-container {
   width: 40%;
   height: 80vh;
